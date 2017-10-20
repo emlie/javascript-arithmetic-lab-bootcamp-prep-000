@@ -25,9 +25,9 @@ function inc(a) {
   a += 1
 }
 
-it('dec(n) decrements n and returns the result', function() {
-  expect(dec(a)).toEqual(a - 1)
-})
+function dec(a) {
+  a -= 1
+}
 
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
