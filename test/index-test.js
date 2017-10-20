@@ -5,9 +5,9 @@ beforeEach(function() {
   b = Math.floor(Math.random() * 1000)
 })
 
-it('add(a, b) adds two numbers and returns the result', function(add(a, b)) {
-  expect(add(a, b)).toEqual(a + b)
-})
+function() {
+  a += b
+}
 
 it('subtract(a, b) subtracts b from a and returns the result', function() {
   expect(subtract(a, b)).toEqual(a - b)
