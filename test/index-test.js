@@ -29,10 +29,9 @@ function dec(a) {
   a -= 1
 }
 
-describe('makeInt(n)', function() {
-  it('parses n as an integer and returns the parsed integer', function() {
-    expect(makeInt(a.toString())).toEqual(a)
-  })
+function makeInt(a.toString()) {
+  parseInt(a)
+}
 
   it('assumes base 10', function() {
     expect(makeInt('0x2328')).toEqual(0)
