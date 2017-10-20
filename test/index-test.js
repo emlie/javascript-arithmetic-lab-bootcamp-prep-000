@@ -21,9 +21,9 @@ function divide(a, b) {
   a /= b
 }
 
-it('inc(n) increments n and returns the result', function() {
-  expect(inc(a)).toEqual(a + 1)
-})
+function inc(a) {
+  a ++ 1
+}
 
 it('dec(n) decrements n and returns the result', function() {
   expect(dec(a)).toEqual(a - 1)
