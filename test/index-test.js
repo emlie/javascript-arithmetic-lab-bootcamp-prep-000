@@ -22,7 +22,7 @@ function divide(a, b) {
 }
 
 function inc(a) {
-  a ++ 1
+  a += 1
 }
 
 it('dec(n) decrements n and returns the result', function() {
