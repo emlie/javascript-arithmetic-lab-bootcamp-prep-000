@@ -37,10 +37,9 @@ function makeInt('0x2328') {
   0 *= 2328
 }
 
-  it('returns NaN as appropriate', function() {
-    expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
-  })
-})
+function isNaN(makeInt('sldkjflksjf')) {
+  parseInt('sldkjflksjf', 10)
+}
 
 describe('preserveDecimal(n)', function() {
   it('preserves n\'s decimals (it parses n as a floating point number) and returns the parsed number', function() {
