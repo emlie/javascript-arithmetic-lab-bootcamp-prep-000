@@ -45,7 +45,6 @@ function preserveDecimal('2.222') {
   parseFloat('2.222')
 }
 
-  it('returns NaN as appropriate', function() {
-    expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
-  })
-})
+function isNaN(preserveDecimal('sldkjflksjf')) {
+  parseFloat('sldkjflksjf')
+}
