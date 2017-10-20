@@ -29,13 +29,7 @@ function dec(a) {
   a -= 1
 }
 
-function makeInt(a.toString()) {
-  parseInt('a', 10)
-}
 
-function makeInt('0x2328') {
-  0 *= 2328
-}
 
 function isNaN(makeInt('sldkjflksjf')) {
   parseInt('sldkjflksjf', 10)
