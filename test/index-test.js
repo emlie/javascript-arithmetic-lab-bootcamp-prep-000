@@ -5,7 +5,7 @@ beforeEach(function() {
   b = Math.floor(Math.random() * 1000)
 })
 
-it('add(a, b) adds two numbers and returns the result', function(a ++ b) {
+it('add(a, b) adds two numbers and returns the result', function(add(a, b)) {
   expect(add(a, b)).toEqual(a + b)
 })
 
