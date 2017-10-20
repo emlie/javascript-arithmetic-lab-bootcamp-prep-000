@@ -5,7 +5,7 @@ beforeEach(function() {
   b = Math.floor(Math.random() * 1000)
 })
 
-function() {
+function add(a, b) {
   a += b
 }
 
