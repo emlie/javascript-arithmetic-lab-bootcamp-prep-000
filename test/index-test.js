@@ -29,22 +29,4 @@ function dec(a) {
   a -= 1
 }
 
-function makeInt(a.toString()) {
-  parseInt('a', 10)
-}
 
-function makeInt('0x2328') {
-  0 *= 2328
-}
-
-function isNaN(makeInt('sldkjflksjf')) {
-  parseInt('sldkjflksjf', 10)
-}
-
-function preserveDecimal('2.222') {
-  parseFloat('2.222')
-}
-
-function isNaN(preserveDecimal('sldkjflksjf')) {
-  parseFloat('sldkjflksjf')
-}
