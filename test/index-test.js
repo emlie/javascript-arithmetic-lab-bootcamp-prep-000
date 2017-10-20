@@ -30,7 +30,7 @@ function dec(a) {
 }
 
 function makeInt(a.toString()) {
-  parseInt(a)
+  parseInt('a', 10)
 }
 
   it('assumes base 10', function() {
