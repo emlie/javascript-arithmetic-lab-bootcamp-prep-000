@@ -28,5 +28,3 @@ function inc(a) {
 function dec(a) {
   a -= 1
 }
-
-
