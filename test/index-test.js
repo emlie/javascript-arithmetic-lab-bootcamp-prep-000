@@ -29,7 +29,7 @@ function dec(a) {
   a -= 1
 }
 
-function makeInt(a.toString()) {
+function makeInt(a.toString() {
   parseInt('a', 10)
 }
 
